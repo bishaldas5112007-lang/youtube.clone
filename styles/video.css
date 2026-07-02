@@ -1,0 +1,165 @@
+
+      
+      .google{
+        width: 100%;
+        margin-bottom: 9px;
+        z-index: 0;
+        
+      }
+      
+      .channel{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        display: inline-block;
+        
+      }
+      .google-thumbnailtext{
+        width: 260px;
+        font-size: 18px;
+        font-weight: 700;
+        display: inline-block;
+        margin-top: 0;
+        
+        
+      }
+      .google-views,
+      .google-channelname{
+        color: rgb(67, 66, 66);
+        line-height: 2px;
+        
+      }
+      .grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        vertical-align: top;
+        column-gap: 30px;
+        
+      }
+      .challenge{
+         width: 100%;
+        margin-bottom: 9px;
+      }
+      .challengeprofile{
+       width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        display: inline-block; 
+      }
+      .challengethumbnailtext{
+         width: 260px;
+        font-size: 18px;
+        font-weight: 700;
+        display: inline-block;
+        margin-top: 0;
+        
+      }
+      .challengename,
+      .challengeviews{
+        color: rgb(67, 66, 66);
+        line-height: 2px;
+      }
+      .grid2{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        vertical-align: top;
+        column-gap: 12px;
+      }
+      .videogrid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        width: 100%;
+        
+      }
+      @media(max-width:1159px) {
+        .videogrid{
+          grid-template-columns: 1fr 1fr ;
+        }
+      }
+      @media(min-width:1300px){
+        .videogrid{
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          
+        }
+      }
+      .crazythumbnail{
+         width: 100%;
+        margin-bottom: 9px;
+      }
+      .crazychannel{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        display: inline-block; 
+      }
+      .crazythumbnailtext{
+        width: 260px;
+        font-size: 18px;
+        font-weight: 700;
+        display: inline-block;
+        margin-top: 0;
+      }
+      .crazyname,
+      .crazyviews{
+        color: rgb(67, 66, 66);
+        line-height: 2px;
+      }
+      .grid3{
+         display: grid;
+        grid-template-columns: 50px 1fr;
+        vertical-align: top;
+        column-gap: 12px;
+      }
+      .body{
+        margin: 0;
+      }
+      .googletime{
+        background-color: black;
+        color: white;
+        height: 20px;
+        width: 40px;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+      }
+      .googlethumbnail{
+        position: relative;
+      }
+      .laughtime{
+        background-color: black;
+        color: white;
+        height: 20px;
+        width: 40px;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+        padding-left: 12px;
+      }
+      .challengeimage{
+        position: relative;
+      }
+      .crazytime{
+         background-color: black;
+        color: white;
+        height: 20px;
+        width: 40px;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+        padding-left: 12px;
+      }
+      .crazyt{
+        position: relative;
+      }
+      .simpletime{
+         background-color: black;
+        color: white;
+        height: 20px;
+        width: 40px;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+        padding-left: 12px;
+      }
+     

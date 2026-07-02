@@ -1,0 +1,351 @@
+.searchbox{
+        height: 40px;
+        display: flex;
+        flex: 1;
+        margin-bottom: 30px;
+        min-width: none;
+        font-size: 17px;
+       width: 0;
+        
+        display: block;
+       
+        ;}
+         .flex{
+        display: flex;
+        flex-direction: row;
+        height: 45px;
+         margin-top: 10px;
+        margin-bottom: 10px;
+       
+        justify-content: start;
+        justify-content: space-between;
+      }
+      .start-section{
+       
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+       
+       
+      }
+      .header{
+        
+        display: flex;
+        flex: 1;
+        margin-left: 70px;
+       
+        
+        padding-left: 20px;
+        
+       
+      }
+      .end-section{
+        
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        
+       
+      }
+      .hamburger{
+        height: 23px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .youtubelogo{
+        height: 23px;
+      }
+      
+    
+      .uploadimg{ height: 28px;
+        margin-top: 49px;
+      margin-right: 35px;
+    margin-left: 120px;}
+      .apps{ height: 28px;
+      margin-right: 35px;
+       margin-top: 49px;
+    }
+      .notification{ height: 28px;
+      margin-right: 35px;
+     margin-top: 49px;
+    }
+      .channel{
+        height: 36px;
+        width: 36px;
+        margin-left: 0;
+        margin-right: 30px;
+      }
+      
+      .righticons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+     .near{
+     height: 40px;
+     border: none;
+      width: 40px;
+      border-radius: 20px;
+      margin-right: 100px;
+      padding-top: 7px;
+     }.voice{
+      margin-left: 0;
+      margin-right: 20px;
+      width: 80px;
+
+     }
+     .searchicon{
+      height: 30px;
+      vertical-align: middle;
+     }
+    .position{
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      background-color: white;
+      border-bottom-width: 1px;
+      border-bottom-color:rgb(198, 192, 192);
+      z-index: 1;
+        border-bottom-style:solid;
+        
+        
+    }
+    .body{
+      padding-top: 75px;
+      padding-left: 120px;
+      background-color: rgb(252, 248, 248);
+      
+    }
+    .flex2{
+      display: flex;
+      flex-direction: column;
+      display: inline-block;
+      justify-content: space-between;
+      position: fixed;
+      left: 0px;
+      top: 65px;
+      width: 93px;
+      height: 900px;
+      border-color: gray;
+      border-style: 2px solid;
+      background-color: white;
+      align-items: center;
+      z-index: 1;
+      
+
+    }
+    .homeimg{
+      width: 27px;
+      margin-bottom: 0;
+      padding-left: 19px;
+    }
+    .home{
+      margin-top: 0;
+      font-size: 13px;
+      padding-left: 19px;
+      margin-bottom: 90px;
+    }
+    .exploreimg{
+      width: 27px;
+      margin-bottom: 0;
+      padding-left: 19px;
+    }
+    .explore{
+      margin-top: 0;
+       font-size: 13px;
+       padding-left: 15px;
+       margin-bottom: 0;
+    }
+    .subsimg{
+      width: 27px;
+      margin-bottom: 0;
+      padding-left: 19px;
+    }
+    .subs{
+      margin-top: 0;
+       font-size: 13px;
+       padding-left: 3px;
+       margin-bottom: 0;
+    }
+    .originalimg{
+      width: 27px;
+      margin-bottom: 0;
+      padding-left: 19px;
+    }
+    .original{
+      margin-top: 0;
+       font-size: 13px;
+       padding-left: 9px;
+       margin-bottom: 0;
+    }
+    .musicimg{
+      width: 27px;
+      margin-bottom: 0;
+      padding-left: 19px;
+    }
+    .music{
+      margin-top: 0;
+       font-size: 13px;
+       margin-bottom: 0;
+       
+    }
+    .libraryimg{
+      width: 27px;
+      margin-bottom: 0;
+      padding-left: 19px;
+    }
+    .library{
+      margin-top: 0;
+       font-size: 13px;
+       padding-left: 17px;
+    }
+    .display{
+      display: inline-block;
+    }
+    .homemargin{
+      padding-top: 30px;
+      padding-left: 10px;
+      height: 65px;
+    
+    }
+    .exploremargin{
+       padding-top: 30px;
+       padding-left: 10px;
+       width: 83px;
+     
+      height: 65px;
+    }
+    .subsmargin{
+       padding-top: 30px;
+       padding-left: 10px;
+       width: 83px;
+      
+      height: 65px;
+    }
+    .originalmargin,
+    .musicmargin,
+    .librarymargin{
+       padding-top: 30px;
+      padding-left: 10px;
+       width: 83px;
+      
+      height: 65px;
+     
+    }
+    .notification3{
+      background-color: red;
+      width: 10px;
+      font-size: 10px;
+      padding-left: 5px;
+      border-radius: 15px;
+      padding-top: 2px;
+      color: white;
+      position: absolute;
+      top: 0px;
+      right: 34px;
+      margin-top: 50px;
+      margin-right: 7px;
+      margin-left: 40px;
+    }
+    .notificationr{
+      position: relative;
+      width: 70px;
+      
+    }
+    .homemargin:hover,
+    .originalmargin:hover,
+    .musicmargin:hover,
+    .librarymargin:hover,
+    .exploremargin:hover,
+    .subsmargin:hover{
+      background-color: rgb(202, 198, 198);
+      cursor: pointer;
+    }
+    .voicehover{
+      opacity: 0;
+      width: 150px;
+      height: 25px;
+      background-color: gray;
+      padding-top: 7px;
+      color: white;
+      margin-top: 20px;
+      margin-right: 25px;
+      margin-left: 0;
+      
+    }
+    .near:hover .voicehover{
+      opacity: 1;
+      cursor: pointer;
+    }
+    .createhover{
+    opacity: 0;
+      width: 45px;
+      height: 25px;
+      background-color: gray;
+      padding-top: 7px;
+      color: white;
+      margin-top: 20px;
+      margin-right: 27px;
+      margin-left: auto;
+      padding-left: 5px;
+     
+    }
+    .upload:hover .createhover{
+      opacity: 1;
+    }
+    .upload{
+      margin-right: 15px;
+    }
+    .appshover{
+      opacity: 0;
+      width: 100px;
+      height: 25px;
+      background-color: gray;
+      padding-top: 7px;
+      color: white;
+      margin-top: 20px;
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-left: 15px;
+     
+    }
+    .youtubeapps:hover .appshover{
+      opacity: 1;
+    }
+    .youtubeapps{
+      width: 70px;
+    }
+    .notificationhover{
+      opacity: 0;
+      width: 100px;
+      height: 25px;
+      background-color: gray;
+      padding-top: 7px;
+      color: white;
+      margin-top: 20px;
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-left: 15px;
+      
+    }
+    .near:hover{
+      cursor: pointer;
+    }
+    .upload:hover{
+      cursor: pointer;
+    }
+    .youtubeapps{
+      cursor: pointer;
+    }
+    .notificationr:hover{
+      cursor: pointer;
+    }
+    .notificationr:hover .notificationhover{
+      opacity: 1;
+    }
